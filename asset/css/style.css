@@ -1,0 +1,32 @@
+nav{
+    background-color: black;
+    color: rgb(34, 34, 34) ; /*texte gris*/
+}
+body{
+    /*police d'écriture*/
+    font-family: 'Raleway', sans-serif;
+    /*couleur du texte*/
+    background-color: rgb(247,242,248);/*blanc de fond*/
+    color: #f7f8fe;
+}
+h1{
+
+}
+h2{
+
+}
+p{
+
+}
+
+/*flexbox container*/
+.flexcontainer{
+    display: flex;
+}
+/*items flex*/
+.flexitems{
+
+}
+
+/*image port folio*/
+#patisserie1{}
