@@ -1,40 +1,73 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!--police d'écriture-->
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--police d'écriture-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <title>Au pain chaud</title>
 </head>
+
 <body>
     <!--entête du site-->
+    <!-- barre de navigation -->
+    <nav>
+        <ul>
+            <li><a href="#">Présentation</a></li>
+            <li><a href="#">Nos pâtisseries</a></li>
+            <li> <a href="#">Nous contacter</a></li>
+            <li> <a href="#">Venir chez nous</a></li>
+        </ul>
+    </nav>
+    <!-- fin barre de navigation -->
+
     <header>
         <h1>Au pain chaud</h1>
-        <!-- barre de navigation -->
-        <nav>
-            <ul>
-                <li>Présentation</li>
-                <li>Nos plats / réalisation</li>
-                <li>Venir chez nous</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-        <!-- fin barre de navigation -->
+
     </header>
     <!--fin entête du site-->
 
-    <!--présentation-->
-    <div ></div>
-        <h2>Présentation du commerce</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum repudiandae enim non, perspiciatis consectetur, aliquam doloribus amet omnis similique quod expedita perferendis voluptate, veritatis eveniet ex cumque asperiores saepe in.</p>
-        <h2>Notre histoire</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum repudiandae enim non, perspiciatis consectetur, aliquam doloribus amet omnis similique quod expedita perferendis voluptate, veritatis eveniet ex cumque asperiores saepe in.</p>
+    <!--flex box-->
+    <div class="flexcontainer">
+        <!--Présentation-->
+        <h2>Présentation</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum repudiandae enim non, perspiciatis
+            consectetur, aliquam doloribus amet omnis similique quod expedita perferendis voluptate, veritatis eveniet
+            ex cumque asperiores saepe in.</p>
         <!--fin présentation-->
-  
+        <!--Nos pâtisseries-->
+        <h2>Nos pâtisseries</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum repudiandae enim non, perspiciatis
+            consectetur, aliquam doloribus amet omnis similique quod expedita perferendis voluptate, veritatis eveniet
+            ex cumque asperiores saepe in.</p>
+        <!-- fin Nos pâtisseries-->
+    </div>
+
+    <!--Nos pâtisseries-->
+    <div class="flexcontainerportfolio">
+        <!--ligne 1 3 colonnes-->
+        <div class="items"><img src="asset/img/imagededev.jfif" alt="patisserie1"></div>
+        <div class="items"><img src="asset/img/imagededev.jfif" alt="patisserie2"></div>
+        <div class="items"><img src="asset/img/imagededev.jfif" alt="patisserie3"></div>
+    </div>
+    <!--ligne 2 3 colonnes-->
+    <div class="flexcontainerportfolio">
+        <div class="items"><img src="asset/img/imagededev.jfif" alt="patisserie4"></div>
+        <div class="items"><img src="asset/img/imagededev.jfif" alt="patisserie5"></div>
+        <div class="items"><img src="asset/img/imagededev.jfif" alt="patisserie6"></div>
+    </div>
+    <!--fin portfolio-->
+    <footer>
+        <h2>Coordonnées</h2>
+        <p>adresse:</p>
+        <p>tel:</p>
+        <h2>Mentions légales</h2>
+    </footer>
 </body>
+
 </html>

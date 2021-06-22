@@ -1,3 +1,42 @@
-body{
+body {
     font-family: 'Raleway', sans-serif;
+
+}
+
+nav ul {
+    background-color: #000;
+    color: rgb(230, 217, 196);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+li a {
+    color: rgb(230, 217, 196);
+}
+/*survole de nav*/
+li a:hover {
+    color: #F6EEEE;
+}
+/*flexcontainer*/
+.flexcontainernav {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexcontainerportfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.items {
+    display: flex;
 }
