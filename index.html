@@ -16,21 +16,18 @@
 <body>
     <!--entête du site-->
     <!-- barre de navigation -->
-     <header>
-    <nav>
-        <ul>
-            <li><a href="#apropos">A propos</a></li>
-            <li><a href="#patisseries">Nos pâtisseries</a></li>
-            <li><a href="#contact">Nous contacter</a></li>
-            <li><a href="#venircheznous">Venir chez nous</a></li>
-        </ul>
-    </nav>
-    <!-- fin barre de navigation -->
-
-
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#apropos">A propos</a></li>
+                <li><a href="#patisseries">Nos pâtisseries</a></li>
+                <li><a href="#contact">Nous contacter</a></li>
+                <li><a href="#venircheznous">Venir chez nous</a></li>
+            </ul>
+        </nav>
+        <!-- fin barre de navigation -->
         <h1>Au pain chaud</h1>
     </header>
-
     <!--fin entête du site-->
 
     <!--flex box-->
@@ -55,60 +52,59 @@
         <!--fin texte-->
         <!-- fin a propos-->
     </div>
-  <!--Venir chez nous-->
-<h2>Venir chez nous</h2>
+    <!--Venir chez nous-->
+    <h2>Venir chez nous</h2>
     <!--fin venir chez nous-->
-
 
     <!--zone de contact-->
     <h2>Nous contacter</h2>
-    <form action="/ma-page-de-taitement" method="POST">
-    <!--nom *-->
-    <div>
-        <label for="name">Nom *</label>
-        <input type="text" id="name" name="user_name">
-    </div>
-    <!--prenom *-->
-    <div>
-        <label for="firstname">Prénom *</label>
-        <input type="text" id="firstname" name="user_firstname">
-    </div>
-    <!--partuculier societe-->
-    <div>
-        <input type="checkbox" id="particulier" name="partuculier"
-               checked>
-        <label for="particulier">Particulier</label>
-      </div>
-      
-      <div>
-        <input type="checkbox" id="societe" name="societe">
-        <label for="societe">société</label>
-      </div>      
-    <!--e-mail *-->
-    <div>
-        <label for="mail">e-mail *</label>
-        <input type="email" id="mail" name="user_mail">
-    </div>
-    <!--Objet du message*-->
-    <div>
-        <label for="subjectline">Objet du message *</label>
-        <input type="text" id="subjectline" name="subjectline">
-    </div>
-    <!--message *-->
-    <div>
-        <label for="msg">Message *</label>
-        <textarea id="msg" name="user_message"></textarea>
-    </div>
-    <!--telephone-->
-    <div><label>Telephone:<input type ="tel" name="tel" maxlength="10" Pattern="^9[0-9]{7}" />
-    </label></div>
-    <!--bouton envoyer-->
-    <div class="button">
-        <button type="submit">Envoyer le message</button>
-    </div>
+    <form class="contact" action="/ma-page-de-taitement" method="POST">
+        <!--nom *-->
+
+        <div>
+            <label for="name">Nom *</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <!--prenom *-->
+        <div>
+            <label for="firstname">Prénom *</label>
+            <input type="text" id="firstname" name="user_firstname">
+        </div>
+        <!--partuculier societe-->
+        <div>
+            <input type="checkbox" id="particulier" name="partuculier" checked>
+            <label for="particulier">Particulier</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="societe" name="societe">
+            <label for="societe">société</label>
+        </div>
+        <!--e-mail *-->
+        <div>
+            <label for="mail">e-mail *</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <!--Objet du message*-->
+        <div>
+            <label for="subjectline">Objet du message *</label>
+            <input type="text" id="subjectline" name="subjectline">
+        </div>
+        <!--message *-->
+        <div>
+            <label for="msg">Message *</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <!--telephone-->
+        <div><label>Telephone:<input type="tel" name="tel" maxlength="10" Pattern="^9[0-9]{7}" />
+            </label></div>
+        <!--bouton envoyer-->
+        <div class="button">
+            <button type="submit">Envoyer le message</button>
+        </div>
     </form>
 
-  <!--fin zone de contact-->
+    <!--fin zone de contact-->
     <!--Nos pâtisseries-->
     <h2 class="patisseries">Nos pâtisseries et nos pains</h2>
     <h3>Les pains</h3>
@@ -151,7 +147,7 @@
     <!--fin portfolio-->
 
     <footer>
-         
+
     </footer>
 </body>
 

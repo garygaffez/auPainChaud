@@ -35,7 +35,6 @@ nav ul {
 }
 
 li a {
-
     color: rgb(230, 217, 196);
 }
 
@@ -89,3 +88,12 @@ li a:hover {
 .imagebordarrondi {
     border-radius: 30px;
 }
+/*contact*/
+
+/* flexbox formulaire
+#contact{
+     background-color: #F6EEEE;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}*/
