@@ -2,8 +2,18 @@ body {
     font-family: 'Raleway', sans-serif;
 
 }
+h2{
+    text-align: center;
+    font-size: 1.3em;
+}
+h3{
+    text-align: center;
+}
 
 nav ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #000;
     color: rgb(230, 217, 196);
     list-style-type: none;
@@ -28,8 +38,13 @@ li a:hover {
 
 .flexcontainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    background-color: #F6EEEE;
+    text-align: center;
+    border-radius: 50px;
 }
+
+
 
 .flexcontainerportfolio {
     display: flex;
@@ -39,4 +54,9 @@ li a:hover {
 
 .items {
     display: flex;
+}
+
+/*images pain / patisseries*/
+.imagebordarrondi{
+    border-radius: 30px;
 }
