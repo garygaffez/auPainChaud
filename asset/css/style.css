@@ -1,0 +1,62 @@
+body {
+    font-family: 'Raleway', sans-serif;
+
+}
+h2{
+    text-align: center;
+    font-size: 1.3em;
+}
+h3{
+    text-align: center;
+}
+
+nav ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    color: rgb(230, 217, 196);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+li a {
+    color: rgb(230, 217, 196);
+}
+/*survole de nav*/
+li a:hover {
+    color: #F6EEEE;
+}
+/*flexcontainer*/
+.flexcontainernav {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #F6EEEE;
+    text-align: center;
+    border-radius: 50px;
+}
+
+
+
+.flexcontainerportfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.items {
+    display: flex;
+}
+
+/*images pain / patisseries*/
+.imagebordarrondi{
+    border-radius: 30px;
+}
