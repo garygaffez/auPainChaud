@@ -2,11 +2,17 @@ body {
     font-family: 'Raleway', sans-serif;
 
 }
-h2{
+
+h1 {
+    text-align: center;
+}
+
+h2 {
     text-align: center;
     font-size: 1.3em;
 }
-h3{
+
+h3 {
     text-align: center;
 }
 
@@ -26,25 +32,42 @@ nav ul {
 li a {
     color: rgb(230, 217, 196);
 }
+
 /*survole de nav*/
 li a:hover {
     color: #F6EEEE;
 }
+
 /*flexcontainer*/
 .flexcontainernav {
     display: flex;
     flex-direction: row;
 }
 
-.flexcontainer {
+/*a propos*/
+.flexcontainerapropos {
     display: flex;
-    flex-direction: row;
     background-color: #F6EEEE;
-    text-align: center;
-    border-radius: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
 }
 
+.titreapropos{
+    text-align: center;
+    width: 100%;
+}
 
+.imagebordarrondiapropos {
+    border-radius: 50px;
+    width: 50%;
+}
+
+.textedeapropos {
+    text-align: center;
+    width: 50%;
+
+}
 
 .flexcontainerportfolio {
     display: flex;
@@ -57,6 +80,6 @@ li a:hover {
 }
 
 /*images pain / patisseries*/
-.imagebordarrondi{
+.imagebordarrondi {
     border-radius: 30px;
 }
