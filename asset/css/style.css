@@ -165,7 +165,7 @@ a {
     color: #E6D9C4;
 }
 
-/*ancre */
+/*ancre conflit ancre */
 #ancreapropos {
     padding-top: 50px;
     margin-top: -50px;
@@ -185,3 +185,35 @@ a {
     padding-top: 50px;
     margin-top: -50px;
 }
+
+/*formulaire*/   
+
+  label {
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+  }   
+  input, textarea {
+    width: 249px;
+    border-radius: 5px;
+  }
+   
+  textarea {
+    height: 100px;
+
+  }
+   
+  select {
+    width: 254px;
+  }
+   
+  input[type=checkbox] {
+    width: 10px;
+  }
+   
+  input[type=submit] {
+    width: 150px;
+    padding: 10px;
+
+  }
