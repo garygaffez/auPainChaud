@@ -56,8 +56,16 @@ li a:hover {
     display: flex;
     background-color: #F6EEEE;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:space-evenly;
     margin: 0;
+    align-items:  center;
+    padding-bottom: 70px;
+}
+.moitie{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .titreapropos {
@@ -67,7 +75,7 @@ li a:hover {
 
 .imagebordarrondiapropos {
     border-radius: 50px;
-    width: 50%;
+    width: 30%;
 }
 
 .textedeapropos {
