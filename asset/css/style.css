@@ -113,12 +113,23 @@ a {
     color: rgb(230, 217, 196);
 }
 
-/*contact*/
+/*ancre */
+#ancreapropos {
+    padding-top: 50px;
+    margin-top: -50px;
+}
 
-/* flexbox formulaire
-#contact{
-     background-color: #F6EEEE;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-}*/
+#ancrepatisseries {
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+#ancrecontact {
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+#ancrevenircheznous {
+    padding-top: 50px;
+    margin-top: -50px;
+}
