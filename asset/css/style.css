@@ -1,32 +1,151 @@
-nav{
-    background-color: black;
-    color: rgb(34, 34, 34) ; /*texte gris*/
-}
-body{
-    /*police d'écriture*/
+body {
     font-family: 'Raleway', sans-serif;
-    /*couleur du texte*/
-    background-color: rgb(247,242,248);/*blanc de fond*/
-    color: #f7f8fe;
+    margin: 0;
 }
-h1{
-
-}
-h2{
-
-}
-p{
-
+h1 {
+    text-align: center;
+    margin-top: 50px;
 }
 
-/*flexbox container*/
-.flexcontainer{
+/*MODIF PAR LUCILE*/
+h2 {
+    text-align: center;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+}
+
+h3 {
+    text-align: center;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    height: 40px;
+    background-color: #000;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+nav ul {
+    color: #E6D9C4;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li a {
+    color: #E6D9C4;
+}
+
+/*survole de nav*/
+li a:hover {
+    color: #F6EEEE;
+}
+
+/*flexcontainer*/
+.flexcontainernav {
+    display: flex;
+    flex-direction: row;
+}
+
+/*a propos*/
+.flexcontainerapropos {
+    display: flex;
+    background-color: #F6EEEE;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+
+.titreapropos {
+    text-align: center;
+    width: 100%;
+}
+
+.imagebordarrondiapropos {
+    border-radius: 50px;
+    width: 50%;
+}
+
+.textedeapropos {
+    text-align: center;
+    width: 50%;
+
+}
+/*MODIFICATIONS PAR LUCILE*/
+.folio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.folio>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+}
+
+.patisseries~h3{
+    margin: 3% 20% 2% 20%;
+    border-top: solid 1px #2a2a2a;
+
+}
+
+.folio h4{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.folio p{
+    width: 80%;
+    margin: 0;
+}
+
+.items {
     display: flex;
 }
-/*items flex*/
-.flexitems{
 
+/*MODIFICATIONS PAR LUCILE*/
+/*Galerie photos*/
+.folio img {
+    border-radius: 30px;
+    margin: 0 70px;
 }
 
-/*image port folio*/
-#patisserie1{}
+/* footer */
+footer{
+    background-color: #222222;
+    color: #E6D9C4;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#logotwitter{
+    width: 30px;
+    height: 30px;
+}
+
+#logofacebook{
+    width: 30px;
+    height: 30px;
+}
+
+a{
+    color: #E6D9C4;
+}
+/*contact*/
+
+/* flexbox formulaire
+#contact{
+     background-color: #F6EEEE;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}*/
