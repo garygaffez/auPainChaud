@@ -78,11 +78,8 @@ li a:hover {
     background-color: #F6EEEE;
 }
 
-.moitie{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+.divimage{
+    width: 25%;
 }
 
 .titreapropos {
@@ -92,12 +89,12 @@ li a:hover {
 
 .imagebordarrondiapropos {
     border-radius: 50px;
-    width: 30%;
+    width: 65%;
 }
 
 .textedeapropos {
     text-align: center;
-    width: 50%;
+    width: 25%;
     margin: 0;
 }
 
