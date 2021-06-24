@@ -87,34 +87,7 @@ li a:hover {
 
 }
 
-.divimage{
-    width: 25%;
-}
-
-.titreapropos {
-    text-align: center;
-    width: 100%;
-}
-
-.imagebordarrondiapropos {
-    border-radius: 50px;
-    width: 65%;
-}
-
-.textedeapropos {
-    text-align: center;
-    width: 25%;
-    margin: 0;
-}
-
-/* porte-folio */
-.folio {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-}
+/*formulaire*/
 
 .folio>div {
     display: flex;
@@ -190,34 +163,40 @@ footer a:not(#logofacebook, #logotwitter){
     padding-top: 70px;
 }
 
-/*formulaire*/   
+/* Formulaire et nous situer */
 
-  label {
-    width: 110px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 6px;
-  }   
-  input, textarea {
-    width: 249px;
-    border-radius: 5px;
-  }
-   
-  textarea {
-    height: 100px;
+.conteneur-flexible {
+    display: flex;
+    font-size: 20px;
+    background-color: #EEECE0;  /*Couleur*/
+    border: 10px solid black;
+    box-sizing: border-box;
+    margin: 20px 0px;
+}
 
-  }
-   
-  select {
-    width: 254px;
-  }
-   
-  input[type=checkbox] {
-    width: 10px;
-  }
-   
-  input[type=submit] {
-    width: 150px;
-    padding: 10px;
+  .ligne {
+      flex-direction: row;
+      /*Axe principal = axe horizontal*/
 
   }
+
+  .element-flexible {
+      flex-basis: 33%;
+      width: 33%;
+      height: 33%;
+      background-color: #D9C5A9;  /*Couleur*/
+      padding: 0px 0px;
+      text-align: center;
+      border: 2px solid #D9C5A9;
+      box-sizing: border-box;
+      margin: 5px;
+      border-radius: 60px;
+      font-size: 20px;
+      height: 400px
+  }
+
+  /*map*/
+
+.map{
+    border-radius: 60px;
+}
