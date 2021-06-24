@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -30,6 +34,10 @@ nav {
 
     background-color: #000;
     font-size: 1.5em;
+}
+
+a {
+    color: #E6D9C4;
 }
 
 nav ul {
@@ -76,6 +84,7 @@ li a:hover {
     padding-bottom: 70px;
     margin-bottom: 30px;
     background-color: #F6EEEE;
+
 }
 
 .divimage{
@@ -146,11 +155,15 @@ footer{
     color: #E6D9C4;
     display:flex;
     justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9em;
 }
 
 #logotwitter {
     width: 30px;
     height: 30px;
+    padding-right: 30px;
 }
 
 #logofacebook {
@@ -158,29 +171,13 @@ footer{
     height: 30px;
 }
 
-a {
-    color: #E6D9C4;
-}
-
 /*ancre conflit ancre */
-#ancreapropos {
-    padding-top: 50px;
-    margin-top: -50px;
+#ancreapropos, #ancrecontact, #ancrevenircheznous {
+    padding-top: 60px;
 }
 
 #ancrepatisseries {
-    padding-top: 50px;
-    margin-top: -50px;
-}
-
-#ancrecontact {
-    padding-top: 50px;
-    margin-top: -50px;
-}
-
-#ancrevenircheznous {
-    padding-top: 50px;
-    margin-top: -50px;
+    padding-top: 70px;
 }
 
 /*formulaire*/   
