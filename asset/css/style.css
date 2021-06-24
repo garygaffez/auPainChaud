@@ -2,6 +2,7 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
 }
+
 h1 {
     text-align: center;
     margin-top: 50px;
@@ -90,27 +91,28 @@ li a:hover {
 }
 
 /* footer */
-footer{
-    background-color: rgb(34,34,34);
-    color: rgb(230,217,196);
-    display:flex;
+footer {
+    background-color: rgb(34, 34, 34);
+    color: rgb(230, 217, 196);
+    display: flex;
     justify-content: space-evenly;
-    
+
 }
 
-#logotwitter{
+#logotwitter {
     width: 30px;
     height: 30px;
 }
 
-#logofacebook{
+#logofacebook {
     width: 30px;
     height: 30px;
 }
 
-a{
-    color:rgb(230,217,196);
+a {
+    color: rgb(230, 217, 196);
 }
+
 /*contact*/
 
 /* flexbox formulaire
