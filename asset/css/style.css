@@ -4,7 +4,8 @@ body {
 }
 h1 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
+    letter-spacing: 2px;
 }
 
 /*MODIF PAR LUCILE*/
@@ -17,32 +18,46 @@ h2 {
 h3 {
     text-align: center;
 }
-
+/*MODIF DU 24/06/2021 nav*/
 nav {
-    top: 0;
+    width: 100%;
+    height: 50px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
     position: fixed;
-    height: 40px;
+    top: 0;
+
     background-color: #000;
     font-size: 1.5em;
-    width: 100%;
 }
 
 nav ul {
-    color: #E6D9C4;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+
+    list-style-type: none;
+    color: #E6D9C4;
 }
 
 li a {
+    text-decoration: none;
+    font-size: 0.8em;
     color: #E6D9C4;
+    border-bottom: solid 1px #E6D9C4;
+
+    transition-property: color border-color;
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
 }
 
 /*survole de nav*/
 li a:hover {
     color: #F6EEEE;
+    border-color: #F6EEEE;
 }
 
 /*flexcontainer*/
