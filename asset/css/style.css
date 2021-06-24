@@ -88,3 +88,51 @@ li a:hover {
 .imagebordarrondi {
     border-radius: 30px;
 }
+
+/**************************************************************************************************/
+
+/*map*/
+
+.map{
+    border-radius: 60px;
+}
+  /**************************************************************************************************/ 
+
+
+/*formulaire*/
+
+
+  .conteneur-flexible {
+      display: flex;
+      font-size: 20px;
+      background-color: #EEECE0;  /*Couleur*/
+      border: 10px solid black;
+      box-sizing: border-box;
+      margin: 20px 0px;
+  }
+
+  .ligne {
+      flex-direction: row;
+      /*Axe principal = axe horizontal*/
+
+  }
+
+  .element-flexible {
+      flex-basis: 33%;
+      width: 33%;
+      height: 33%;
+      background-color: #D9C5A9;  /*Couleur*/
+      padding: 0px 0px;
+      text-align: center;
+      border: 2px solid #D9C5A9;
+      box-sizing: border-box;
+      margin: 5px;
+      border-radius: 60px;
+      font-size: 20px;
+      height: 400px
+  }
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+
+  
