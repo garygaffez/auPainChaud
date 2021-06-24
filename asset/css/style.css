@@ -12,7 +12,7 @@ h1 {
     margin-top: 70px;
     letter-spacing: 2px;
 }
-  
+
 h2 {
     text-align: center;
     font-size: 1.3em;
@@ -24,24 +24,20 @@ h3 {
 }
 
 nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 50px;
     padding-bottom: 5px;
-    display: flex;
-    align-items: center;
     position: fixed;
     top: 0;
-
     background-color: #000;
-    font-size: 1.5em;
-}
-
-a {
-    color: #E6D9C4;
 }
 
 nav ul {
-    width: 100%;
+    font-size: 1.3em;
+    width: 60%;
     display: flex;
     justify-content: space-evenly;
     padding: 0;
@@ -53,7 +49,7 @@ nav ul {
 
 li a {
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 0.7em;
     color: #E6D9C4;
     border-bottom: solid 1px #E6D9C4;
 
@@ -84,10 +80,36 @@ li a:hover {
     padding-bottom: 70px;
     margin-bottom: 30px;
     background-color: #F6EEEE;
-
 }
 
-/*formulaire*/
+.divimage{
+    width: 25%;
+}
+
+.titreapropos {
+    text-align: center;
+    width: 100%;
+}
+
+.imagebordarrondiapropos {
+    border-radius: 50px;
+    width: 65%;
+}
+
+.textedeapropos {
+    text-align: center;
+    width: 25%;
+    margin: 0;
+}
+
+/* porte-folio */
+.folio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
 
 .folio>div {
     display: flex;
@@ -130,23 +152,17 @@ footer{
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    font-size: 0.85em;
-    letter-spacing: 1px;
-}
-
-footer a:not(#logofacebook, #logotwitter){
-    border-bottom: solid 1px #E6D9C4;
-    text-decoration: none;
+    font-size: 0.8em;
 }
 
 .reseaux{
-    display: flex;
+    display:flex;
 }
 
 #logotwitter {
     width: 30px;
     height: 30px;
-    padding-right: 30px;
+    margin-right: 30px;
 }
 
 #logofacebook {
@@ -154,8 +170,12 @@ footer a:not(#logofacebook, #logotwitter){
     height: 30px;
 }
 
+a {
+    color: #E6D9C4;
+}
+
 /*ancre conflit ancre */
-#ancreapropos, #ancrecontact, #ancrevenircheznous {
+#ancreapropos, #ancrecontact{
     padding-top: 60px;
 }
 
@@ -164,36 +184,84 @@ footer a:not(#logofacebook, #logotwitter){
 }
 
 /* Formulaire et nous situer */
+form{
+    width: 70%;
+    margin: 40px auto;
+}
+
+form>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form>div:nth-child(5), form>div:nth-child(6){
+    width: 20%;
+}
+
+input, textarea, button{
+    padding: 5px 10px;
+	border: none;
+	background-color: #ececec;
+	letter-spacing: 1px;
+	border-radius: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    
+	transition: background-color;
+	transition-delay: 0.1s;		
+	transition-duration: 0.8s;
+}
+
+input:hover, textarea:hover, select:hover, button:hover{
+    background-color: #fff;
+}
+
+textarea{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.85em;
+    font-style: italic;
+	padding: 10px;
+}
+
+label span{
+    color: darkred;
+    font-size: 1.1em;
+}
+
+button{
+    cursor: pointer;
+    padding: 8px 20px;
+}
 
 .conteneur-flexible {
     display: flex;
-    font-size: 20px;
-    background-color: #EEECE0;  /*Couleur*/
-    border: 10px solid black;
     box-sizing: border-box;
-    margin: 20px 0px;
+    margin: 20px 0px 100px 0px;
 }
 
-  .ligne {
-      flex-direction: row;
-      /*Axe principal = axe horizontal*/
+.ligne {
+    flex-direction: row;
+    /*Axe principal = axe horizontal*/ 
+}
 
-  }
+.element-flexible {
+    flex-basis: 33%;
+    width: 33%;
+    height: 33%;
+    background-color: #D9C5A9;  /*Couleur*/
+    padding: 0px 0px;
+    border: 2px solid #D9C5A9;
+    box-sizing: border-box;
+    margin: 5px;
+    border-radius: 60px;
+    height: 400px;
+}
 
-  .element-flexible {
-      flex-basis: 33%;
-      width: 33%;
-      height: 33%;
-      background-color: #D9C5A9;  /*Couleur*/
-      padding: 0px 0px;
-      text-align: center;
-      border: 2px solid #D9C5A9;
-      box-sizing: border-box;
-      margin: 5px;
-      border-radius: 60px;
-      font-size: 20px;
-      height: 400px
-  }
+.element-flexible:not(.element-flexible:nth-child(1)){
+    text-align: center;
+
+}
 
   /*map*/
 
