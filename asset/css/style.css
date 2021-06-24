@@ -157,7 +157,17 @@ footer{
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.85em;
+    letter-spacing: 1px;
+}
+
+footer a:not(#logofacebook, #logotwitter){
+    border-bottom: solid 1px #E6D9C4;
+    text-decoration: none;
+}
+
+.reseaux{
+    display: flex;
 }
 
 #logotwitter {
