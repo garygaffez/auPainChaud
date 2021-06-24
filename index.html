@@ -15,9 +15,8 @@
 
 <body>
     <!--entête du site-->
-    <!-- barre de navigation -->
-    <header>
-
+        <!-- MODIF DU 24/06/2021 barre de navigation -->
+        <header>
         <nav>
             <ul>
                 <li><a href="#ancreapropos">A propos</a></li>
@@ -26,7 +25,7 @@
                 <li><a href="#ancrevenircheznous">Venir chez nous</a></li>
             </ul>
         </nav>
-        <!-- fin barre de navigation -->
+    <!-- FIN MODIF DU 24/06/2021 barre de navigation -->
         <h1>Au pain chaud</h1>
     </header>
     <!--fin entête du site-->
@@ -40,12 +39,12 @@
 
         <!--a propos image a gauche et texte a droit-->
         <!--image-->
-        <div>
+        <div class="moitie">
             <img src="asset/img/apropos.jpg" class="imagebordarrondiapropos" alt="image a propos">
         </div>
         <!--fin image-->
         <!--texte-->
-        <div>
+        <div class="moitie">
             <p class="textedeapropos">Nous exerçons notre passion pour la gastronomie dans la boulangerie familiale :
                 fournil à pains,
                 pâtisserie, et viennoiseries... Rien ne nous laisse indifférent.</p>
@@ -54,49 +53,46 @@
         <!-- fin a propos-->
     </div>
 
-
     <!--Nos pâtisseries-->
     <h2 id="ancrepatisseries" class="patisseries">Nos pâtisseries et nos pains</h2>
     <h3>Les pains</h3>
-    <div class="flexcontainerportfolio">
-        <!--ligne 1 3 colonnes-->
-        <div><img class="imagebordarrondi " src="asset/img/rustic.jpg" alt="patisserie1">
-            <h4>Le rustique</h4>
-            <p>Aux céréales mélangées et bio.</p>
+        <div class="folio">
+            <!--ligne 1 3 colonnes-->
+            <div><img  src="asset/img/rustic.jpg" alt="Pain rustique au feu de bois">
+                <h4>Le rustique</h4>
+                <p>Aux céréales mélangées et bio et cuit au feu de bois.</p>
+            </div>
+    
+            <div><img src="asset/img/round.jpg" alt="Lots de pains ronds">
+                <h4>Les pains ronds</h4>
+                <p>Inspirés de la recette traditionnelle, ils se vendent en lots de trois.</p>
+            </div>
+    
+            <div><img src="asset/img/tradition.jpg" alt="Pains tradition">
+                <h4>La tradition</h4>
+                <p>Recette traditionnelle à la farine complète.</p>
+            </div>
         </div>
-
-        <div><img class="imagebordarrondi" src="asset/img/round.jpg" alt="patisserie2">
-            <h4>Les pains ronds</h4>
-            <p>Inspirés de la recette traditionnelle, ils se vendent en lots de trois.</p>
+        <h3>Pâtisseries</h3>
+        <!--ligne 2 3 colonnes-->
+        <div class="folio">
+            <div><img src="asset/img/blueberry.jpg" alt="Assortiments de pâtisseries aux fruits">
+                <h4>A partager</h4>
+                <p>Assortiments de pâtisseries fruitées, mélanges de la culture asiatique et occidentale.</p>
+            </div>
+    
+            <div><img src="asset/img/charlotte.jpg" alt="Biscuits auc fraises et chocolats blancs">
+                <h4>Le gourmand</h4>
+                <p>Un biscuit artisanal surmontée de fraises fraiches et de copeaux de chocolats.</p>
+            </div>
+    
+            <div><img src="asset/img/redPastry.jpg" alt="Pâtisseries à la vanille et aux fraises">
+                <h4>Le vanillier</h4>
+                <p>Base au spéculos recouvert d'une mousse à la vanille et de fraises coupées.</p>
+            </div>
+    
         </div>
-
-        <div><img class="imagebordarrondi" src="asset/img/tradition.jpg" alt="patisserie3">
-            <h4>La tradition</h4>
-            <p>Recette traditionnelle à la farine complète.</p>
-        </div>
-    </div>
-    <h3>Pâtisseries</h3>
-    <!--ligne 2 3 colonnes-->
-    <div class="flexcontainerportfolio">
-        <div><img class="imagebordarrondi" src="asset/img/blueberry.jpg" alt="patisserie4">
-            <h4> A partager</h4>
-            <p> Assortiments de pâtisseries fruitées, mélanges de la culture asiatique et occidentale.</p>
-        </div>
-
-        <div><img class="imagebordarrondi" src="asset/img/charlotte.jpg" alt="patisserie5">
-            <h4>Le gourmand</h4>
-            <p> Un biscuit artisanal surmontée de fraises fraiches et de copeaux de chocolats.</p>
-        </div>
-
-        <div><img class="imagebordarrondi" src="asset/img/redPastry.jpg" alt="patisserie6">
-            <h4>Le vanillier</h4>
-            <p> Base au spéculos recouvert d'une mousse à la vanille et de fraises coupées.</p>
-        </div>
-
-    </div>
-    <!--fin portfolio-->
-
-
+        <!--FIN MODIFICATIONS PAR LUCILE portfolio-->
 
     <!--zone de contact-->
     <h2 id="ancrecontact" >Nous contacter</h2>
@@ -151,17 +147,13 @@
     <h2 id="ancrevenirchernous" >Venir chez nous</h2>
     <!--fin venir chez nous-->
 
-
     <footer>
-        <h2> <a href="legalNotice.html">Mentions légales</a></h2>
-        <h2>
+        <p><a href="legalNotice.html">Mentions légales</a></p>
+        <p>
             contact <a href="mailto:aupainchaud@hotmail.fr">aupainchaud@hotmail.fr</a>
-        </h2>
-        <h2><a href="https://twitter.com"><img id="logotwitter" src="asset/img/twitter.svg"
-                    alt="logo twitter blanc"></a></h2>
-        <h2> <a href="https://facebook.com"><img id="logofacebook" src="asset/img/facebook.svg"
-                    alt="logo facebook bleu"></a> </h2>
+        </p>
+        <p><a href="https://twitter.com"><img id="logotwitter" src="asset/img/twitter.svg" alt="logo twitter blanc"></a></p>
+        <p> <a href="https://facebook.com"><img id="logofacebook" src="asset/img/facebook.svg" alt="logo facebook bleu"></a> </p>
     </footer>
 </body>
-
 </html>
