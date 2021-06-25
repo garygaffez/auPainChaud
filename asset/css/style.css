@@ -254,20 +254,17 @@ footer img{
     width: 7%
 }
 
-.reseaux{
-    display:flex;
-    width: 10%;
-}
-
 .reseaux a{
 }
 
 #logotwitter {
-    margin-right: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 #logofacebook {
- 
+    width: 30px;
+    height: 30px;
 }
 
 a {
