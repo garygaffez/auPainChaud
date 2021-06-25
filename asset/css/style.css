@@ -67,8 +67,17 @@ li a:hover {
     border-color: #F6EEEE;
 }
 
+/* ancre */
+#abLink, #contactLink{
+    padding-top: 60px;
+}
+
+#pastryLink {
+    padding-top: 70px;
+}
+
 /*a propos*/
-.flexcontainerapropos {
+.about {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
@@ -83,17 +92,17 @@ li a:hover {
     width: 25%;
 }
 
-.titreapropos {
+.abTitle {
     text-align: center;
     width: 100%;
 }
 
-.imagebordarrondiapropos {
+.abImage {
     border-radius: 50px;
     width: 65%;
 }
 
-.textedeapropos {
+.abText{
     text-align: center;
     width: 25%;
     margin: 0;
@@ -116,7 +125,7 @@ li a:hover {
     width: 33.3%;
 }
 
-.patisseries~h3{
+.pastry~h3{
     margin: 3% 20% 2% 20%;
     border-top: solid 1px #2a2a2a;
 }
@@ -171,15 +180,6 @@ a {
     color: #E6D9C4;
 }
 
-/*ancre conflit ancre */
-#ancreapropos, #ancrecontact{
-    padding-top: 60px;
-}
-
-#ancrepatisseries {
-    padding-top: 70px;
-}
-
 /* Formulaire et nous situer */
 form{
     width: 70%;
@@ -231,7 +231,7 @@ button{
     padding: 8px 20px;
 }
 
-.conteneur-flexible {
+.contactContainer {
     display: flex;
     box-sizing: border-box;
     margin: 50px 5px 100px 5px;
@@ -239,14 +239,14 @@ button{
     background-color: #f0e5df; 
 }
 
-.element-flexible {
+.contactItems {
     width: 33%;
     flex-basis: 33%;
     padding: 0px 0px;
     box-sizing: border-box;
 }
 
-.element-flexible:not(.element-flexible:nth-child(1)){
+.contactItems:not(.contactItems:nth-child(1)){
     text-align: center;
 }
 
