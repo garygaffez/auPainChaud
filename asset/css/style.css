@@ -67,12 +67,6 @@ li a:hover {
     border-color: #F6EEEE;
 }
 
-/*flexcontainer*/
-.flexcontainernav {
-    display: flex;
-    flex-direction: row;
-}
-
 /*a propos*/
 .flexcontainerapropos {
     display: flex;
