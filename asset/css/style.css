@@ -57,8 +57,8 @@ nav ul {
 li a {
     text-decoration: none;
     font-size: 0.7em;
-    color: #f0e5df;
-    border-bottom: solid 1px #f0e5df;
+    color: #dbc3b5;
+    border-bottom: solid 1px #dbc3b5;
 
     transition-property: color border-color;
     transition-duration: 0.2s;
