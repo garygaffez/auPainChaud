@@ -19,89 +19,88 @@
 </head>
 
 <body>
-    <!--entête du site-->
-    <!-- MODIF DU 24/06/2021 barre de navigation -->
     <header>
+        <!-- nav barre -->
         <nav>
             <ul>
-                <li><a href="#ancreapropos">A propos</a></li>
-                <li><a href="#ancrepatisseries">Nos pâtisseries</a></li>
-                <li><a href="#ancrecontact">Nous contacter</a></li>
+                <li><a href="#abLink">A propos</a></li>
+                <li><a href="#pastryLink">Nos pâtisseries</a></li>
+                <li><a href="#contactLink">Nous contacter</a></li>
             </ul>
         </nav>
-        <!-- FIN MODIF DU 24/06/2021 barre de navigation -->
+        <!-- end nav barre -->
         <h1>Au pain chaud</h1>
     </header>
-    <!--fin entête du site-->
-
-    <!--flex box-->
-    <div class="flexcontainerapropos">
-        <div id="ancreapropos" class="titreapropos">
+    
+    <!-- about -->
+    <div class="about">
+        <div id="abLink" class="abTitle">
             <h2>A propos</h2>
         </div>
-        <!--a propos image a gauche et texte a droit-->
-        <!--image-->
-        <div class="divimage">
-            <img src="asset/img/apropos.jpg" class="imagebordarrondiapropos" alt="image a propos">
+        <div>
+            <img src="asset/img/apropos.jpg" class="abImage" alt="image de mains de boulanger - Au Pain Chaud">
         </div>
-        <!--fin image-->
-        <!--texte-->
-        <p class="textedeapropos"><em>Au Pain Chaud</em> est l'expression d'un artisanat boulanger de puriste, où sont
+        <p class="abText"><em>Au Pain Chaud</em> est l'expression d'un artisanat boulanger de puriste, où sont
             transformées les meilleures
             matières premières, majoritairement issues de l'agriculture biologique, dans le respect de techniques
             ancestrales garantes du goût et de la santé. Ce parti pris impose une gamme courte, avec uniquement du
             pain et de la viennoiserie.</p>
-        <p class="textedeapropos">Nous exerçons notre passion pour la gastronomie dans la boulangerie familiale :
+        <p class="abText">Nous exerçons notre passion pour la gastronomie dans la boulangerie familiale :
             fournil à pains, pâtisserie, et viennoiseries... Rien ne nous laisse indifférent.</p>
-        <!--fin texte-->
-        <!-- fin a propos-->
+        </div>
+    <!-- end about -->
+    <div style="text-align:center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OR29MSlsKBU?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <!--Nos pâtisseries-->
-    <h2 id="ancrepatisseries" class="patisseries">Nos pâtisseries et nos pains</h2>
+    <!--portfolio-->
+    <h2 id="pastryLink" class="pastry">Nos pâtisseries et nos pains</h2>
     <h3>Les pains</h3>
     <div class="folio">
-        <!--ligne 1 3 colonnes-->
-        <div><img src="asset/img/rustic.jpg" alt="Pain rustique au feu de bois">
+        <div>
+            <img src="asset/img/rustic.jpg" alt="Pain rustique au feu de bois - Au Pain Chaud">
             <h4>Le rustique</h4>
             <p>Aux céréales mélangées et bio et cuit au feu de bois.</p>
         </div>
 
-        <div><img src="asset/img/round.jpg" alt="Lots de pains ronds">
+        <div>
+            <img src="asset/img/round.jpg" alt="Lots de pains ronds - Au Pain Chaud">
             <h4>Les pains ronds</h4>
             <p>Inspirés de la recette traditionnelle, ils se vendent en lots de trois.</p>
         </div>
 
-        <div><img src="asset/img/tradition.jpg" alt="Pains tradition">
+        <div>
+            <img src="asset/img/tradition.jpg" alt="Pains tradition - Au Pain Chaud">
             <h4>La tradition</h4>
             <p>Recette traditionnelle à la farine complète.</p>
         </div>
     </div>
+
     <h3>Pâtisseries</h3>
-    <!--ligne 2 3 colonnes-->
     <div class="folio">
-        <div><img src="asset/img/blueberry.jpg" alt="Assortiments de pâtisseries aux fruits">
+        <div><img src="asset/img/blueberry.jpg" alt="Assortiments de pâtisseries aux fruits - Au Pain Chaud">
             <h4>A partager</h4>
             <p>Assortiments de pâtisseries fruitées, mélanges de la culture asiatique et occidentale.</p>
         </div>
 
-        <div><img src="asset/img/charlotte.jpg" alt="Biscuits auc fraises et chocolats blancs">
+        <div><img src="asset/img/charlotte.jpg" alt="Biscuits auc fraises et chocolats blancs - Au Pain Chaud">
             <h4>Le gourmand</h4>
             <p>Un biscuit artisanal surmontée de fraises fraiches et de copeaux de chocolats.</p>
         </div>
 
-        <div><img src="asset/img/redPastry.jpg" alt="Pâtisseries à la vanille et aux fraises">
+        <div><img src="asset/img/redPastry.jpg" alt="Pâtisseries à la vanille et aux fraises - Au Pain Chaud">
             <h4>Le vanillier</h4>
             <p>Base au spéculos recouvert d'une mousse à la vanille et de fraises coupées.</p>
         </div>
     </div>
+    <!-- end portfolio -->
 
-    <!-- formulaire et adresse -->
-    <h2 id="ancrecontact">Venir chez nous</h2>
-    <!--formulaire-->
-    <div class="conteneur-flexible ligne">
-        <div class="element-flexible">
+    <!-- adress & form contact -->
+    <h2 id="contactLink">Venir chez nous</h2>
+    <div class="contactContainer">
+        <div class="contactItems">
             <h3>Nous contacter</h3>
-            <form action="/ma-page-de-taitement" method="POST">
+            <!--form-->
+            <form action="/ma-page-de-traitement" method="POST">
                 <div>
                     <label for="name">Nom <span>* </span></label>
                     <input type="text" id="name" name="user_name" placeholder="Nom*" required>
@@ -119,11 +118,11 @@
                     <input type="tel" name="tel" maxlength="10" Pattern="^9[0-9]{7}" />
                 </div>
                 <div>
-                    <input type="radio" id="societe" name="type" value="societe">
-                    <label for="societe">Société</label>
+                    <input type="radio" id="society" name="type" value="society">
+                    <label for="society">Société</label>
                 </div>
                 <div>
-                    <input type="radio" id="particuler" name="type" value="particulier">
+                    <input type="radio" id="particulier" name="type" value="particulier">
                     <label for="particulier">Particulier</label>
                 </div>
                 <div>
@@ -137,24 +136,22 @@
                 <div class="button">
                     <button type="submit">Envoyer</button>
                 </div>
+            </form>
         </div>
 
         <!--map-->
-
-        <div class="element-flexible"><iframe class="map"
+        <div class="contactItems"><iframe class="map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.26251409109!2d2.296106338242958!3d49.89387466146538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e78438b2bf754f%3A0x8ab1ab82f99fffc6!2sPlaisir%20du%20Pain%20Chaud!5e0!3m2!1sfr!2sfr!4v1624458590039!5m2!1sfr!2sfr"
                 width="450" height="400" style="border: 150px;;" allowfullscreen="" loading="lazy"></iframe></div>
 
-        <!--horaires-->
-
-        <div class="element-flexible">
-            <p id="p3">
-                <h3>Nos horaires</h3>
-                <p>Ouvert de 7h30 à 20h00</p>
-                <p>Dimanche et Jours fériés de 8h00 à 12h00</p>
+        <!--schedules-->
+        <div class="contactItems schedule">
+            <h3>Horaires et jours d'ouverture de votre boulangerie pâtisserie</h3>
+            <p><em>Au Pain Chaud</em> est ouvert du lundi au samedi de 7h30 à 20h00,<br>
+                et les dimanches et jours fériés de 8h00 à 12h00.</p>
         </div>
     </div>
-    <!-- fin formulaire et adresse -->
+    <!-- end adress & form -->
 
     <footer>
         <p><a href="legalNotice.html">Mentions légales</a></p>
@@ -162,11 +159,16 @@
             Addresse: 9 Rue des Sergents, 80000 Amiens, FRANCE<br>
             Tel: 03.26.12.13.14 (fr)</p>
         <p>Contact<br><a href="mailto:aupainchaud@hotmail.fr">aupainchaud@hotmail.fr</a></p>
-        <p class="reseaux"><a href="https://twitter.com" id="logotwitter"><img src="asset/img/twitter.svg"
-                    alt="logo twitter blanc"></a>
-            <a href="https://facebook.com" id="logofacebook"><img src="asset/img/facebook.svg"
-                    alt="logo facebook bleu"></a></p>
+        <p class="reseaux">
+            <a href="https://twitter.com" id="logotwitter">
+                <img src="asset/img/twitter.svg"
+                    alt="logo twitter blanc">
+            </a>
+            <a href="https://facebook.com" id="logofacebook">
+                <img src="asset/img/facebook.svg"
+                    alt="logo facebook bleu">
+            </a>
+        </p>
     </footer>
 </body>
-
 </html>
