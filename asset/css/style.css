@@ -150,36 +150,6 @@ li a:hover {
     margin: 0 70px;
 }
 
-/* footer */
-footer{
-    background-color: #222222;
-    color: #f0e5df;
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    font-size: 0.8em;
-}
-
-.reseaux{
-    display:flex;
-}
-
-#logotwitter {
-    width: 30px;
-    height: 30px;
-    margin-right: 30px;
-}
-
-#logofacebook {
-    width: 30px;
-    height: 30px;
-}
-
-a {
-    color: #E6D9C4;
-}
-
 /* Formulaire et nous situer */
 form{
     width: 70%;
@@ -267,4 +237,39 @@ button{
 
 .schedule h3, .schedule p{
     width: 80%;
+}
+
+/* footer */
+footer{
+    background-color: #222222;
+    color: #f0e5df;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer img{
+    width: 7%
+}
+
+.reseaux{
+    display:flex;
+    width: 10%;
+}
+
+.reseaux a{
+}
+
+#logotwitter {
+    margin-right: 30px;
+}
+
+#logofacebook {
+ 
+}
+
+a {
+    color: #E6D9C4;
 }
