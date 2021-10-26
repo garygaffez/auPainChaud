@@ -1,3 +1,7 @@
+:root {
+    font-size: 12px;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -7,250 +11,50 @@ body {
     margin: 0;
 }
 
-h1 {
-    font-family: 'Allura', cursive;
-    font-size: 3.5em;
-    font-weight: 300;
-    word-spacing: 8px;
-    text-align: center;
-    margin-top: 80px;
+footer {
+    background-color: black;
+    bottom: 0;
+    position:absolute;
 }
 
-h2 {
-    text-align: center;
-    font-size: 1.3em;
-    letter-spacing: 2px;
+.logo {
+    width: 50%;
+    margin: auto;
 }
 
-h3 {
-    text-align: center;
+.twitter {
+    width: 45%;
 }
 
-a {
-    color: #E6D9C4;
+.fb {
+    width: 40%;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50px;
-    padding-bottom: 5px;
-    position: fixed;
-    top: 0;
-    background-color: #000;
-}
-
-nav ul {
-    font-size: 1.3em;
-    width: 60%;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0;
-    margin: 0;
-
-    list-style-type: none;
-    color: #E6D9C4;
-}
-
-li a {
-    text-decoration: none;
-    font-size: 0.7em;
-    color: #dbc3b5;
-    border-bottom: solid 1px #dbc3b5;
-
-    transition-property: color border-color;
-    transition-duration: 0.2s;
-    transition-delay: 0.1s;
-}
-
-/*survole de nav*/
-li a:hover {
-    color: #F6EEEE;
-    border-color: #F6EEEE;
-}
-
-/* ancre */
-#abLink, #contactLink{
-    padding-top: 60px;
-}
-
-#pastryLink {
-    padding-top: 70px;
-}
-
-/*a propos*/
-.about {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    align-items:  center;
-    margin: 0;
-    padding-bottom: 70px;
-    margin-bottom: 30px;
-    background-color: #f0e5df;
-}
-
-.divimage{
-    width: 25%;
-}
-
-.abTitle {
-    text-align: center;
-    width: 100%;
-}
-
-.abImage {
-    border-radius: 50px;
-    width: 65%;
-}
-
-.abText{
-    text-align: justify;
-    width: 25%;
+.texte p {
+    color: white;
+    font-size: 0.8rem;
     margin: 0;
 }
 
-/* video */
-.video{
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-}
-
-/* porte-folio */
-.folio {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-}
-
-.folio>div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 33.3%;
-}
-
-.pastry~h3{
-    margin: 3% 20% 2% 20%;
-    border-top: solid 1px #2a2a2a;
-}
-
-.folio h4{
-    width: 100%;
-    margin: 10px 0;
-}
-
-.folio p{
-    width: 80%;
-    margin: 0;
-}
-
-.items {
-    display: flex;
-}
-
-/*Galerie photos*/
-.folio img {
-    border-radius: 30px;
-    margin: 0 70px;
-}
-
-/* Formulaire et nous situer */
-form{
-    width: 70%;
-    margin: 40px auto;
-}
-
-form>div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-form>div:nth-child(5), form>div:nth-child(6){
-    width: 20%;
-}
-
-input, textarea, button{
-    padding: 5px 10px;
-	border: none;
-	background-color: #f9f4f2;
-	letter-spacing: 1px;
-	border-radius: 5px;
-    margin-bottom: 5px;
-    margin-right: 15px;
-    
-	transition: background-color;
-	transition-delay: 0.1s;		
-	transition-duration: 0.8s;
-}
-
-input:hover, textarea:hover, select:hover, button:hover{
-    background-color: #fff;
-}
-
-textarea{
-    font-family: 'Raleway', sans-serif;
-    font-size: 0.85em;
-    font-style: italic;
-	padding: 10px;
-}
-
-label span{
-    color: darkred;
-    font-size: 1.1em;
-}
-
-button{
+.btn {
+    color: white;
+    font-size: 0.8rem;
+    text-decoration: underline;
     cursor: pointer;
-    padding: 8px 20px;
 }
 
-.contactContainer {
-    display: flex;
-    box-sizing: border-box;
-    margin: 50px 5px 100px 5px;
-    border-radius: 60px;
-    background-color: #f0e5df; 
+.btn:hover {
+    color: #fac5a8;
 }
 
-.contactItems {
-    width: 33%;
-    flex-basis: 33%;
-    padding: 0px 0px;
-    box-sizing: border-box;
+@media screen and (min-width: 800px) {
+.modal-dialog {
+    margin: auto;
+    width: 300px;
+    height:400px;
 }
-
-.contactItems:not(.contactItems:nth-child(1)){
-    text-align: center;
 }
-
-/*map*/
-.map{
-    border-radius: 60px;
-    width: 100%;
-    height: 100%;
-}
-
-/* horaire */
-.schedule{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-}
-
-.schedule h3, .schedule p{
-    width: 80%;
-}
-
-/* footer */
+/* footer
 footer{
     background-color: #222222;
     color: #f0e5df;
@@ -273,4 +77,4 @@ footer img{
 #logofacebook {
     width: 30px;
     height: 30px;
-}
+} */
