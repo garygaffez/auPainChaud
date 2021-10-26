@@ -11,6 +11,48 @@ body {
     margin: 0;
 }
 
+/* Menu */
+#navbarSupportedContent{
+    justify-content: center;
+}
+
+.navbar-toggler{
+    background-color: #F6EEEE;
+}
+
+#navbarSupportedContent :hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#F0E5DF;
+}
+
+header {
+    height: 20vh;
+}
+
+@media ( min-width: 576px ) {
+    header {
+        height: 35vh;
+    }
+}
+
+@media ( min-width: 992px ) {
+    header {
+        height: 10vh;
+    }
+}
+
+@media ( min-width: 1200px ) {
+    header {
+        height: 20vh;
+    }
+}
+
+
+
+/* Presentation */
 h1 {
     font-family: 'Allura', cursive;
     font-size: 3.5rem;
