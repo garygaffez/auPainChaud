@@ -1,16 +1,126 @@
-.map {
-    border-radius: 60px;
+:root {
+    font-size: 16px;
 }
 
-#round {
-    border-radius: 60px;
-    background-color: #f0e5df;
+
+html{
+    scroll-behavior: smooth;
 }
 
-#linkcolor:hover {
-    color: gray;
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
 }
 
-textarea {
-    height: 150px;
+main {
+    min-height: 80vh;
 }
+
+/* Menu */
+#navbarSupportedContent{
+    justify-content: center;
+}
+
+.navbar-toggler{
+    background-color: #F6EEEE;
+}
+
+#navbarSupportedContent :hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#F0E5DF;
+}
+
+header {
+    margin-top: 45px;
+}
+
+/* Presentation */
+h1 {
+    font-family: 'Allura', cursive;
+    font-size: 3.5rem;
+    font-weight: 300;
+    word-spacing: 8px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bgColor {
+    background-color: #F0E5DF ;
+}
+
+.textPres {
+    margin: 10px;
+}
+
+.img1 {
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    bottom: 0;
+    position:relative;
+}
+
+.logo {
+    width: 50px;
+    margin: auto;
+}
+
+.twitter {
+    width: 30px;
+}
+
+.fb {
+    width: 30px;
+}
+
+.texte p {
+    font-size: 0.8rem;
+}
+
+.btn {
+    color: white;
+    font-size: 0.8rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #fac5a8;
+}
+
+@media screen and (min-width: 800px) {
+.modal-dialog {
+    margin: auto;
+    width: 300px;
+    height:400px;
+}
+}
+/* footer
+footer{
+    background-color: #222222;
+    color: #f0e5df;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer img{
+    width: 7%
+}
+
+#logotwitter {
+    width: 30px;
+    height: 30px;
+}
+
+#logofacebook {
+    width: 30px;
+    height: 30px;
+} */
