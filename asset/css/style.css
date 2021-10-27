@@ -2,6 +2,7 @@
     font-size: 16px;
 }
 
+
 html{
     scroll-behavior: smooth;
 }
@@ -10,6 +11,12 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
 }
+
+main {
+    min-height: 80vh;
+}
+
+
 
 /* Menu */
 #navbarSupportedContent{
@@ -28,34 +35,30 @@ body {
     color:#F0E5DF;
 }
 
-header {
-    height: 20vh;
+#round{
+    background-color: #F0E5DF;
 }
 
+#linkcolor {
+    color: gray;
+}
+
+
 #profil {
-    border-radius: 50px;
+    border-radius: 5vh;
+    width: 80vw;
 }
 
 #products {
     border-radius: 30px;
 }
 
-@media ( min-width: 576px ) {
-    header {
-        height: 35vh;
-    }
+#rad {
+    border-radius: 60px;
 }
 
-@media ( min-width: 992px ) {
-    header {
-        height: 10vh;
-    }
-}
-
-@media ( min-width: 1200px ) {
-    header {
-        height: 20vh;
-    }
+.rad {
+    border-radius: 60px;
 }
 
 
@@ -67,7 +70,7 @@ h1 {
     font-weight: 300;
     word-spacing: 8px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 75px;
 }
 
 .bgColor {
@@ -78,6 +81,60 @@ h1 {
     margin: 10px;
 }
 
-.img1 {
-    width: 100%;
+.logo {
+    width: 20vh ;
 }
+
+textarea {
+    height: 150px;
+}
+
+.twitter {
+    width: 30px;
+}
+
+.fb {
+    width: 30px;
+}
+
+.texte p {
+    font-size: 0.8rem;
+}
+
+.btn {
+    color: white;
+    font-size: 0.8rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #fac5a8;
+}
+
+hr {
+    color: black;
+    
+
+}
+
+@media screen and (min-width: 768px) {
+.modal-dialog {
+    margin: auto;
+    width: 300px;
+    height:400px;
+}
+}
+
+@media screen and (min-width: 576px) {
+    #profil {
+    width: 30vh;
+    }
+    }
+    
+
+    @media screen and (min-width: 768px) {
+        .logo{
+        width: 30vh;
+        }
+        }
