@@ -32,6 +32,14 @@ header {
     height: 20vh;
 }
 
+#profil {
+    border-radius: 50px;
+}
+
+#products {
+    border-radius: 30px;
+}
+
 @media ( min-width: 576px ) {
     header {
         height: 35vh;
