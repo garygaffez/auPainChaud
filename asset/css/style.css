@@ -2,6 +2,7 @@
     font-size: 16px;
 }
 
+
 html{
     scroll-behavior: smooth;
 }
@@ -9,6 +10,10 @@ html{
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
+}
+
+main {
+    min-height: 80vh;
 }
 
 /* Menu */
@@ -29,28 +34,8 @@ body {
 }
 
 header {
-    height: 20vh;
+    margin-top: 45px;
 }
-
-@media ( min-width: 576px ) {
-    header {
-        height: 35vh;
-    }
-}
-
-@media ( min-width: 992px ) {
-    header {
-        height: 10vh;
-    }
-}
-
-@media ( min-width: 1200px ) {
-    header {
-        height: 20vh;
-    }
-}
-
-
 
 /* Presentation */
 h1 {
@@ -73,3 +58,69 @@ h1 {
 .img1 {
     width: 100%;
 }
+
+footer {
+    background-color: black;
+    bottom: 0;
+    position:relative;
+}
+
+.logo {
+    width: 50px;
+    margin: auto;
+}
+
+.twitter {
+    width: 30px;
+}
+
+.fb {
+    width: 30px;
+}
+
+.texte p {
+    font-size: 0.8rem;
+}
+
+.btn {
+    color: white;
+    font-size: 0.8rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #fac5a8;
+}
+
+@media screen and (min-width: 800px) {
+.modal-dialog {
+    margin: auto;
+    width: 300px;
+    height:400px;
+}
+}
+/* footer
+footer{
+    background-color: #222222;
+    color: #f0e5df;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer img{
+    width: 7%
+}
+
+#logotwitter {
+    width: 30px;
+    height: 30px;
+}
+
+#logofacebook {
+    width: 30px;
+    height: 30px;
+} */
