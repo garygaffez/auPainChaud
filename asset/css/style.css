@@ -9,13 +9,12 @@ html{
 
 body {
     font-family: 'Raleway', sans-serif;
-    margin: 0;
+    margin: 0;  
 }
 
 main {
     min-height: 80vh;
 }
-
 
 
 /* Menu */
@@ -25,6 +24,7 @@ main {
 
 .navbar-toggler{
     background-color: #F6EEEE;
+    
 }
 
 #navbarSupportedContent :hover {
@@ -85,6 +85,10 @@ h1 {
     width: 20vh ;
 }
 
+#linkcolor:hover {
+    color:white;
+}
+
 textarea {
     height: 150px;
 }
@@ -128,9 +132,19 @@ hr {
 
 @media screen and (min-width: 576px) {
     #profil {
-    width: 30vh;
+    width: 50vh;
     }
     }
+
+
+    @media screen and (min-width: 768px) {
+        #profil {
+        width: 30vh;
+        }
+        }
+
+
+
     
 
     @media screen and (min-width: 768px) {
@@ -138,3 +152,6 @@ hr {
         width: 30vh;
         }
         }
+
+        
+
